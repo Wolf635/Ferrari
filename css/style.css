@@ -2439,7 +2439,8 @@ body {
     margin-top: 1.5625rem;
     right: 50%;
     -webkit-transform: translate(50%,0);
-    transform: translate(50%,0)
+    transform: translate(50%,0);
+    top: calc(100dvh - 75px)
   }
   .advantages-hero {
     order: 2;
