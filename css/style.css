@@ -1997,7 +1997,7 @@ body {
     font-size: .75rem
   }
   .hero__container {
-    padding-top: 5rem
+    padding-top: 4.1rem
   }
   .hero__container {
     padding-left: .625rem
@@ -2436,7 +2436,7 @@ body {
   }
   .hero__scroll-down {
     order: 4;
-    margin-top: 1.5625rem;
+    margin-top: 2.2625rem;
     right: 50%;
     -webkit-transform: translate(50%,0);
     transform: translate(50%,0);
@@ -3157,14 +3157,14 @@ body {
       font-size: calc(.9375rem + .5625 * (100vw - 20rem)/ 43.9375)
     }
   }
-  @supports (padding-top:clamp(5rem ,4.6301564723rem + 1.8492176387vw ,5.8125rem)) {
+  @supports (padding-top:clamp(4.1rem ,3.3204836415rem + 3.8975817923vw ,5.8125rem)) {
     .hero__container {
-      padding-top: clamp(5rem ,4.6301564723rem + 1.8492176387vw ,5.8125rem)
+      padding-top: clamp(4.1rem ,3.3204836415rem + 3.8975817923vw ,5.8125rem)
     }
   }
-  @supports not (padding-top:clamp(5rem ,4.6301564723rem + 1.8492176387vw ,5.8125rem)) {
+  @supports not (padding-top:clamp(4.1rem ,3.3204836415rem + 3.8975817923vw ,5.8125rem)) {
     .hero__container {
-      padding-top: calc(5rem + .8125 * (100vw - 20rem)/ 43.9375)
+      padding-top: calc(4.1rem + 1.7125 * (100vw - 20rem)/ 43.9375)
     }
   }
   @supports (left:clamp(0.625rem ,-3.0734352774rem + 18.4921763869vw ,8.75rem)) {
